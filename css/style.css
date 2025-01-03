@@ -266,6 +266,46 @@ button {
   border-radius: 0.8rem;
 }
 
+.footer {
+  padding: 5rem 0;
+}
+.footer__nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  gap: 3rem;
+  flex-wrap: wrap;
+  margin-bottom: 8rem;
+}
+.footer__block--link {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.1rem;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+}
+.footer__link {
+  color: #a6a8ad;
+}
+.footer__link_1 {
+  font-size: 2rem;
+  line-height: 2.4rem;
+  color: white;
+}
+.footer__link--bt {
+  margin-bottom: 2.4rem;
+}
+.footer__nav--links {
+  display: flex;
+  align-items: center;
+  gap: 2.4rem;
+  flex-wrap: wrap;
+}
+.footer__link--about {
+  font-size: 1.2rem;
+  color: #a6a8ad;
+}
+
 @media (width < 1132px) {
   .always__title {
     text-align: center;
