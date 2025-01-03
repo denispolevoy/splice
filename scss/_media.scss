@@ -1,0 +1,27 @@
+@media (width < 686px) {
+  .header {
+    flex-wrap: wrap;
+    justify-content: space-around;
+    row-gap: 2rem;
+    height: auto;
+  }
+  .sounds {
+    padding: 1rem;
+    &__content {
+      display: none;
+    }
+  }
+}
+
+@media (width < 617px) {
+  .nav {
+    &__items {
+      display: none;
+    }
+    &__burger {
+      display: flex;
+      flex-direction: column;
+      row-gap: 0.7rem;
+    }
+  }
+}

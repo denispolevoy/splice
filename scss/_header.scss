@@ -1,0 +1,56 @@
+.header {
+  height: 7.1rem;
+  @include disp-flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  column-gap: 2.3rem;
+  &__buttons {
+    display: flex;
+    align-items: center;
+    column-gap: 2rem;
+  }
+  &__buttons--login {
+    color: $color-gray;
+    background-color: transparent;
+  }
+  &__buttons--signup {
+    background-color: $color-white;
+    color: $color-dark;
+    padding: 0.8rem 2.1rem;
+    border-radius: 3.2rem;
+  }
+}
+.nav {
+  @include disp-flex;
+  column-gap: 2.9rem;
+  &__items {
+    @include disp-flex;
+    list-style: none;
+    column-gap: 2rem;
+  }
+  &__link {
+    color: $color-gray;
+    &:hover {
+      color: white;
+    }
+  }
+  &__logo {
+    width: 9.7rem;
+    height: 3rem;
+    object-fit: contain;
+  }
+  &__burger {
+
+    display: none;
+    cursor: pointer;
+    span {
+      display: inline-block;
+      width: 3rem;
+      height: 0.3rem;
+      background-color: $color-white;
+    }
+  }
+}
+
+.nav__list {
+}
