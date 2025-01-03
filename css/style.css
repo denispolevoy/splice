@@ -199,7 +199,7 @@ button {
 }
 
 .always {
-  padding: 2rem 0rem;
+  padding: 10rem 0rem;
 }
 .always__title {
   font-weight: 400;
@@ -244,6 +244,28 @@ button {
   align-self: flex-start;
 }
 
+.today {
+  height: 72.8rem;
+  background-image: url("../img/today-image.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 5.7rem;
+}
+.today__title {
+  font-size: 5rem;
+  font-weight: 400;
+}
+.today__link {
+  padding: 0.8rem 2rem;
+  background-color: #0033ff;
+  border-radius: 0.8rem;
+}
+
 @media (width < 1132px) {
   .always__title {
     text-align: center;
@@ -284,5 +306,11 @@ button {
   }
   .always__cards {
     grid-template-columns: repeat(auto-fit, minmax(36.1rem, max-content));
+  }
+  .today {
+    height: 40.5rem;
+  }
+  .today__title {
+    font-size: 4rem;
   }
 }/*# sourceMappingURL=style.css.map */

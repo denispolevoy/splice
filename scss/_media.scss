@@ -46,4 +46,10 @@
       grid-template-columns: repeat(auto-fit, minmax(36.1rem, max-content));
     }
   }
+  .today {
+    height: 40.5rem;
+    &__title {
+      font-size: 4rem;
+    }
+  }
 }
