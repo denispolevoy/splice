@@ -1,0 +1,32 @@
+.producer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5.4rem;
+  align-items: flex-start;
+  max-width: 120rem;
+  background-image: url("../img/IMAGE.png");
+  margin: 0 auto;
+  min-height: 74.4rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  &__title {
+    max-width: 41.6rem;
+    font-weight: 400;
+    font-size: clamp(3rem, 0.5625rem + 5.25vw, 7.2rem);
+    margin-bottom: 2rem;
+  }
+  &__descr {
+    font-size: 2rem;
+    line-height: 2.4rem;
+    max-width: 41.2rem;
+    margin-bottom: 4.4rem;
+  }
+  &__link {
+    padding: 1.6rem 3.2rem;
+    background-color: $color-blue;
+    border-radius: 0.8rem;
+    max-width: 12.5rem;
+  }
+}
